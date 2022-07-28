@@ -1,0 +1,289 @@
+.dim{
+    background-image: url(/img/dim.png);
+    width: 536px;
+    height: 227px;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+    
+}
+.text{
+    font-size: 95px;
+    color:#F6AA52;
+}
+.man{
+    background-image: url(/img/man.png);
+    width:568px;
+    height: 543px;
+    z-index: 1;
+    background-size: cover;
+}
+.fon{
+    background-image: url(/img/Vector\ 3.png);
+    width: 105%;
+    height: 492px;
+    background-size: cover
+}
+.contacttext{
+    text-align: right;
+    z-index: 1;
+    margin-top: 15%;
+    margin-right: 5%;
+}
+.contacttext h3{
+    color: #014AA8;
+    font-size: 27px;
+
+}
+.contacttext span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: right;
+}
+.phoneBut{
+    height: 60px;
+    width: 287px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 1060px){
+    .man{
+        width: 484px;
+        height: 440px;;
+    }
+    .zavis{
+        width: 50%;
+    }
+    .text{
+        font-size: 80px;
+    }
+    .contacttext{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    .fon{
+        height: 445px;
+    }
+    .man{
+        width: 60%;
+        mix-blend-mode: normal;
+    }
+
+}
+@media only screen and (max-width: 880px){
+    .man{
+        height: 380px;
+    }
+}
+@media only screen and (max-width: 790px){
+    .man{
+        height: 330px;
+        width: 58%;
+    }
+    .fon{
+        height:340px;
+    }
+    .panasonic {
+        width: 200px;
+        height: 90px;
+    }
+    .lgLogo {
+        width: 230px;
+        height: 53px;
+    }
+    .smasung {
+        width: 221px;
+        height: 93px;
+    }
+    .mitsubishi {
+        width: 220px;
+        height: 88px;
+    }
+
+}
+@media only screen and (max-width: 720px){
+    .text{
+        font-size: 55px;
+    }
+    .man{
+        background-image: url(/img/man2.png);
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 660px){
+    .man{
+        height: 300px;
+        width: 68%;
+    }
+    .dim{
+        margin-left: 0;
+        width: 100%;
+        background-size: cover;
+        height: 240px;
+    }
+    .zavis{
+        width: 94%;
+    }
+    .phoneBut{
+        position: absolute;
+        bottom: -80px;
+        left: 105px;
+        width: 340px;
+    }
+    .panasonic {
+        width: 200px;
+        height: 90px;
+    }
+    .lgLogo {
+        width: 210px;
+        height: 40px;
+    }
+    .smasung {
+        width: 221px;
+        height: 93px;
+    }
+    .mitsubishi {
+        width: 205px;
+        height: 75px;
+    }
+    .contacttext h3{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 510px){
+    .man{
+        height: 240px;
+    }
+    .phoneBut {
+        left: 20px;
+        width: 340px;
+    }
+    .panasonic {
+        width: 160px;
+        height: 50px;
+    }
+    .lgLogo {
+        width: 160px;
+        height: 26px;
+    }
+    .smasung {
+        width: 160px;
+        height: 60px;
+    }
+    .mitsubishi {
+        width: 160px;
+        height: 53px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .text {
+        font-size: 40px;
+    }
+
+    .man{
+        width: 80%;
+        height: 300px;
+    }
+    .dim{
+        height: 170px;
+    }
+    .contacttext{
+        position: absolute;
+        top: 250px;
+        left: 10px;
+    }
+    .phoneBut {
+        left: 18px;
+        width: 280px;
+        top: 140px;
+    }
+    .panasonic {
+        width: 120px;
+        height: 41px;
+    }
+    .lgLogo {
+        width: 145px;
+        height: 25px;
+    }
+    .smasung {
+        width: 134px;
+        height: 50px;
+    }
+    .mitsubishi {
+        width: 150px;
+        height: 53px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+
+    .proser{
+        font-size: 14px;
+    }
+    .contacttext{
+        text-align: center;
+    }
+    .panasonic {
+        width: 100px;
+        height: 30px;
+    }
+    .lgLogo {
+        width: 110px;
+        height: 20px;
+    }
+    .smasung {
+        width: 110px;
+        height: 40px;
+    }
+    .mitsubishi {
+        width: 100px;
+        height: 38px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .dim {
+        height: 150px;
+    }
+    .zavis {
+        font-size: 13px;
+    }
+    .text {
+        font-size: 35px;
+    }
+    .man {
+        width: 100%;
+        height: 300px;
+    }
+    .contacttext {
+        position: absolute;
+        top: 280px;
+        left: 10px;
+    }
+    .phoneBut {
+        left: 0px;
+        width: 250px;
+        top: 110px;
+    }
+    .panasonic {
+        width: 95px;
+        height: 35px;
+    }
+    .lgLogo {
+        width: 110px;
+        height: 20px;
+    }
+    .smasung {
+        width: 100px;
+        height: 38px;
+    }
+    .mitsubishi {
+        width: 100px;
+        height: 38px;
+    }
+}
